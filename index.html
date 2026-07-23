@@ -18,7 +18,7 @@
       <div class="header-top">
         <a class="brand-block" href="index.html">
           <img src="assets/logo.png" alt="Lani Cao Law Office logo" width="150" height="150" />
-          <h1>Lani Cao Law Office</h1>
+          <h1 class="brand-title"><span>Lani Cao</span><span>Law Office</span></h1>
         </a>
         <div class="header-right">
           <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
@@ -33,42 +33,35 @@
                 <a href="family-law.html">Family Law</a>
               </div>
             </details>
-            <a href="immigration-law.html">Immigration Law</a>
-            <a href="business-law.html">Business Law</a>
-            <a href="family-law.html">Family Law</a>
             <a href="team.html">Team</a>
-            <details class="has-sub">
-              <summary>More</summary>
-              <div class="submenu">
-                <a href="law-journal.html">Law Journal</a>
-                <a href="news.html">News</a>
-                <a href="faq.html">FAQ</a>
-                <a href="contact.html">Contact</a>
-              </div>
-            </details>
+            <a href="law-journal.html">Law Journal</a>
+            <a href="news.html">News</a>
+            <a href="faq.html">FAQ</a>
             <a href="contact.html">Contact</a>
           </nav>
           <div class="header-tools">
             <label class="lang">
               <span class="visually-hidden" style="position:absolute;left:-9999px">Language</span>
-              <select aria-label="Language">
-                <option selected>English</option>
-                <option>中文</option>
+              <select aria-label="Language" data-lang-switch>
+                <option value="en" selected>English</option>
+                <option value="zh">中文</option>
               </select>
             </label>
-            <div class="social" aria-label="Social Bar">
-              <a href="https://xhslink.com/m/8TUn4BJtulc" target="_blank" rel="noreferrer noopener" aria-label="Xiaohongshu"><img src="assets/social-xhs.png" alt="" /></a>
-              <a href="https://www.linkedin.com/company/lani-cao-law-office-pllc" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn"><img src="assets/social-linkedin.png" alt="" /></a>
-              <a href="https://www.youtube.com/@lanicao9628" target="_blank" rel="noreferrer noopener" aria-label="YouTube"><img src="assets/social-youtube.png" alt="" /></a>
-            </div>
           </div>
         </div>
       </div>
 
       <div class="banner">
-        <div class="banner-inner">
+        <div class="banner-copy">
           <p>We provide clear, reliable legal guidance so you can move forward with confidence.</p>
+        </div>
+        <div class="banner-actions">
           <a class="btn btn-navy" href="appointments.html">Book an Appointment Now</a>
+          <div class="social" aria-label="Social Bar">
+            <a href="https://xhslink.com/m/8TUn4BJtulc" target="_blank" rel="noreferrer noopener" aria-label="Xiaohongshu"><img src="assets/social-xhs.png" alt="" /></a>
+            <a href="https://www.linkedin.com/company/lani-cao-law-office-pllc" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn"><img src="assets/social-linkedin.png" alt="" /></a>
+            <a href="https://www.youtube.com/@lanicao9628" target="_blank" rel="noreferrer noopener" aria-label="YouTube"><img src="assets/social-youtube.png" alt="" /></a>
+          </div>
         </div>
       </div>
     </header>
@@ -229,6 +222,8 @@
       </div>
     </footer>
 
+    <a class="chat-launcher" href="contact.html"><span class="avatar" aria-hidden="true">👤</span> Let's Chat!</a>
+    <script src="config.js"></script>
     <script src="script.js"></script>
   </body>
 </html>
