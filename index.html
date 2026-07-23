@@ -3,118 +3,232 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Professional services website template" />
-    <title>Law Office — Template</title>
+    <title>Lani Cao Law Office - Immigration Attorneys</title>
+    <meta name="description" content="Lani Cao Law Office is a top immigration law firm based in Bellevue, offering expert legal services in English and Chinese. Trusted counsel for individuals and businesses navigating U.S. immigration law." />
+    <link rel="icon" href="assets/favicon.jpeg" type="image/jpeg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400&family=Forum&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <a class="skip" href="#main" style="position:absolute;left:-9999px">Skip to Main Content</a>
+
     <header class="site-header">
-      <a class="brand" href="#" aria-label="Home">
-        <span class="brand-mark">L</span>
-        <span>LAW OFFICE</span>
-      </a>
-      <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <span></span><span></span>
-      </button>
-      <nav class="nav" aria-label="Main navigation">
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#firm">Our Firm</a>
-        <a href="#contact">Contact</a>
-        <a class="nav-cta" href="#contact">Consult Now</a>
-      </nav>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="hero-copy">
-          <p class="eyebrow">TRUSTED LEGAL COUNSEL</p>
-          <h1>Guidance for<br /><em>what matters.</em></h1>
-          <p class="hero-text">An established practice offering thoughtful, personal counsel across complex legal matters.</p>
-          <a class="text-link" href="#contact">Schedule a consultation <span>→</span></a>
-        </div>
-        <div class="hero-art" aria-label="Decorative office interior illustration">
-          <div class="window"><span></span><span></span><span></span></div>
-          <div class="sun"></div>
-          <div class="desk"></div>
-          <div class="plant"><i></i><i></i><i></i><i></i><i></i></div>
-          <div class="column"></div>
-        </div>
-      </section>
-
-      <section class="intro section" id="about">
-        <p class="eyebrow">ABOUT THE FIRM</p>
-        <div class="intro-grid">
-          <h2>A clear path<br />forward.</h2>
-          <div>
-            <p>Our practice is built on careful preparation, responsive communication, and a practical understanding of every client’s goals.</p>
-            <a class="outline-button" href="#firm">Learn about our firm <span>→</span></a>
+      <div class="header-top">
+        <a class="brand-block" href="index.html">
+          <img src="assets/logo.png" alt="Lani Cao Law Office logo" width="150" height="150" />
+          <h1>Lani Cao Law Office</h1>
+        </a>
+        <div class="header-right">
+          <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+          <nav class="nav" aria-label="Site">
+            <a class="active" href="index.html">Home</a>
+            <details class="has-sub">
+              <summary>Our Focus</summary>
+              <div class="submenu">
+                <a href="our-focus.html">Overview</a>
+                <a href="immigration-law.html">Immigration Law</a>
+                <a href="business-law.html">Business Law</a>
+                <a href="family-law.html">Family Law</a>
+              </div>
+            </details>
+            <a href="immigration-law.html">Immigration Law</a>
+            <a href="business-law.html">Business Law</a>
+            <a href="family-law.html">Family Law</a>
+            <a href="team.html">Team</a>
+            <details class="has-sub">
+              <summary>More</summary>
+              <div class="submenu">
+                <a href="law-journal.html">Law Journal</a>
+                <a href="news.html">News</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+              </div>
+            </details>
+            <a href="contact.html">Contact</a>
+          </nav>
+          <div class="header-tools">
+            <label class="lang">
+              <span class="visually-hidden" style="position:absolute;left:-9999px">Language</span>
+              <select aria-label="Language">
+                <option selected>English</option>
+                <option>中文</option>
+              </select>
+            </label>
+            <div class="social" aria-label="Social Bar">
+              <a href="https://xhslink.com/m/8TUn4BJtulc" target="_blank" rel="noreferrer noopener" aria-label="Xiaohongshu"><img src="assets/social-xhs.png" alt="" /></a>
+              <a href="https://www.linkedin.com/company/lani-cao-law-office-pllc" target="_blank" rel="noreferrer noopener" aria-label="LinkedIn"><img src="assets/social-linkedin.png" alt="" /></a>
+              <a href="https://www.youtube.com/@lanicao9628" target="_blank" rel="noreferrer noopener" aria-label="YouTube"><img src="assets/social-youtube.png" alt="" /></a>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <section class="services section" id="services">
-        <div class="services-heading">
-          <p class="eyebrow">PRACTICE AREAS</p>
-          <h2>How we can help</h2>
+      <div class="banner">
+        <div class="banner-inner">
+          <p>We provide clear, reliable legal guidance so you can move forward with confidence.</p>
+          <a class="btn btn-navy" href="appointments.html">Book an Appointment Now</a>
         </div>
-        <div class="service-list">
-          <a href="#"><span>01</span><strong>Employment-Based Matters</strong><b>→</b></a>
-          <a href="#"><span>02</span><strong>Family-Based Matters</strong><b>→</b></a>
-          <a href="#"><span>03</span><strong>Naturalization &amp; Citizenship</strong><b>→</b></a>
-          <a href="#"><span>04</span><strong>Nonimmigrant Visas</strong><b>→</b></a>
-          <a href="#"><span>05</span><strong>Business Services</strong><b>→</b></a>
-        </div>
-      </section>
+      </div>
+    </header>
 
-      <section class="firm" id="firm">
-        <div class="firm-image" aria-label="Decorative architectural illustration">
-          <div class="arch arch-one"></div><div class="arch arch-two"></div><div class="arch arch-three"></div>
-        </div>
-        <div class="firm-copy">
-          <p class="eyebrow">EXPERIENCE THAT LISTENS</p>
-          <h2>Personal counsel.<br />Lasting confidence.</h2>
-          <p>We combine extensive experience with a client-first approach, helping individuals and organizations move forward with confidence.</p>
-          <a class="text-link light" href="#contact">Connect with our team <span>→</span></a>
+    <main id="main">
+      <section class="hero" aria-label="Introduction">
+        <div class="hero-media" role="img" aria-label="Lani Cao Law Office"></div>
+        <div class="hero-copy">
+          <h2><a href="index.html">Lani Cao Law Office</a></h2>
+          <p>Specializing in immigration law, immigration litigation, business law, family law, long-term legal counsel, and nonprofit law.</p>
         </div>
       </section>
 
-      <section class="testimonial section">
-        <p class="eyebrow">CLIENT EXPERIENCE</p>
-        <blockquote>“From the first conversation through every milestone, the guidance was clear, professional, and genuinely reassuring.”</blockquote>
-        <p class="attribution">— CLIENT NAME</p>
+      <section class="about" id="about">
+        <div class="about-copy">
+          <div class="about-kicker">
+            <h2>About the Firm</h2>
+            <p>Lani Cao Law Office</p>
+          </div>
+          <p>Lani Cao Law Office is an immigration-focused law firm serving corporate and individual clients throughout the United States and internationally. We have staff members who speak both English and Mandarin Chinese to better serve our clients with diverse backgrounds.</p>
+          <p>Our office is conveniently located in Downtown Bellevue. Whether you have questions or require professional assistance, we are here to help.</p>
+          <a class="btn btn-navy" href="team.html">About Us</a>
+        </div>
+        <div class="about-media" role="img" aria-label="Bellevue office building"></div>
       </section>
 
-      <section class="stats">
-        <div><strong>5000<span>+</span></strong><p>TRUSTED CLIENTS</p></div>
-        <div><strong>5000<span>+</span></strong><p>SUCCESSFUL CASES</p></div>
-        <div><strong>99<span>%</span></strong><p>SUCCESS RATE</p></div>
-        <div><strong>20<span>+</span></strong><p>YEARS EXPERIENCE</p></div>
+      <section class="focus-head" id="focus">
+        <h2>Immigration Focus Areas</h2>
+      </section>
+      <div class="focus-grid">
+        <a class="focus-item" href="immigration-law.html">
+          <svg viewBox="34.231 24.997 131.537 150.003" aria-hidden="true"><path fill="#143558" d="M161.214 85.356a4.554 4.554 0 0 0-.419-1.144c-9.663-23.389-32.434-39.981-59.109-40.662V29.612a4.612 4.612 0 0 0-6.921-3.995L62.782 44.084a4.612 4.612 0 0 0 0 7.99L94.765 70.54a4.628 4.628 0 0 0 2.307.619 4.618 4.618 0 0 0 4.614-4.614V52.777c20.457.607 38.209 12.089 47.637 28.894H84.144c-12.258 0-22.23 9.972-22.23 22.23s9.972 22.23 22.23 22.23h36.209c3.391 0 6.151 2.76 6.151 6.151s-2.76 6.151-6.151 6.151H98.516c-12.524 0-23.087 8.466-26.329 19.968-17.127-9.727-28.728-28.104-28.728-49.169 0-2.547-2.067-4.614-4.614-4.614s-4.614 2.067-4.614 4.614C34.231 139.935 57.533 175 100 175c36.263 0 65.768-29.505 65.768-65.768 0-8.428-1.652-16.463-4.554-23.876z"/></svg>
+          <span>Employment-Based Immigration</span>
+        </a>
+        <a class="focus-item" href="immigration-law.html">
+          <svg viewBox="20 40 160 120" aria-hidden="true"><path fill="#143558" d="M49.206 78.298c-10.503 0-19.048-8.59-19.048-19.149S38.703 40 49.206 40s19.048 8.59 19.048 19.149-8.545 19.149-19.048 19.149zm101.588 0c-10.503 0-19.048-8.59-19.048-19.149S140.291 40 150.794 40s19.048 8.59 19.048 19.149-8.545 19.149-19.048 19.149zM100 160c-22.091 0-40-13.431-40-30v-10c0-11.046 13.431-20 40-20s40 8.954 40 20v10c0 16.569-17.909 30-40 30z"/></svg>
+          <span>Family-Based Immigration</span>
+        </a>
+        <a class="focus-item" href="immigration-law.html">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><path fill="#143558" d="M32 4 8 14v16c0 16.2 10.4 31.2 24 36 13.6-4.8 24-19.8 24-36V14L32 4zm0 10.2 16 6.7V30c0 11.3-6.8 22-16 26.4C22.8 52 16 41.3 16 30V20.9l16-6.7z"/><path fill="#143558" d="m28.5 36.8-5.3-5.3-3.2 3.2 8.5 8.5 16-16-3.2-3.2z"/></svg>
+          <span>Citizenship and Naturalization</span>
+        </a>
+        <a class="focus-item" href="immigration-law.html">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><path fill="#143558" d="M8 46h48v6H8zm4-8h8V18H12zm16 0h8V10h-8zm16 0h8V24h-8z"/></svg>
+          <span>Nonimmigrant Visas</span>
+        </a>
+        <a class="focus-item" href="business-law.html">
+          <svg viewBox="0 0 64 64" aria-hidden="true"><path fill="#143558" d="M10 50h44V26H10zm4-20h36v16H14zm8-14h20v8H22z"/></svg>
+          <span>Business Immigration Services</span>
+        </a>
+      </div>
+      <div class="focus-cta">
+        <a class="btn btn-navy" href="our-focus.html">Learn More</a>
+      </div>
+
+      <section class="learn">
+        <h2>Learn About Our Firm</h2>
+        <div class="video-frame" role="img" aria-label="Firm introduction video">
+          <button type="button" aria-label="Play video">▶</button>
+        </div>
       </section>
 
-      <section class="contact section" id="contact">
-        <p class="eyebrow">GET IN TOUCH</p>
-        <h2>Start the conversation.</h2>
-        <a class="dark-button" href="mailto:hello@example.com">Schedule a consultation <span>→</span></a>
+      <section class="slideshow" aria-roledescription="carousel" aria-label="Client testimonials">
+        <article class="slide active">
+          <h2>Client Testimonials</h2>
+          <div class="slide-card">
+            <p>“I want to sincerely thank Lani Cao Law Office for their help with my H-1B case. From the first consultation, they were extremely professional, patient, and detail oriented. They explained every step clearly and answered all my questions promptly, which really put me at ease during a stressful process. Highly recommend Lani's firm to anyone dealing with complex immigration matters.”</p>
+            <p class="attr">— Jason L</p>
+          </div>
+        </article>
+        <article class="slide">
+          <h2>Client Testimonials</h2>
+          <div class="slide-card">
+            <p>“The team guided us through every step with clarity and care. Communication was prompt, and we always understood what came next.”</p>
+            <p class="attr">— Client Review</p>
+          </div>
+        </article>
+        <article class="slide">
+          <h2>Client Testimonials</h2>
+          <div class="slide-card">
+            <p>“Professional, thorough, and genuinely supportive. We felt confident throughout the entire process.”</p>
+            <p class="attr">— Client Review</p>
+          </div>
+        </article>
+        <div class="slide-nav">
+          <button class="prev" type="button" aria-label="Previous">‹</button>
+          <button class="next" type="button" aria-label="Next">›</button>
+        </div>
+        <div class="dots" role="tablist" aria-label="Slides"></div>
+      </section>
+
+      <section class="cta">
+        <h2>Take the first step towards resolving your immigration matters.<br />Schedule a consultation today！</h2>
+        <div class="stats">
+          <div class="stat"><strong>5000+</strong><span>TRUSTED CLIENTS</span></div>
+          <div class="stat"><strong>5000+</strong><span>SUCCESSFUL CASES</span></div>
+          <div class="stat"><strong>99%</strong><span>SUCCESS RATE</span></div>
+          <div class="stat"><strong>20+ Yrs</strong><span>EXPERIENCE</span></div>
+        </div>
+        <div class="cta-action">
+          <a class="btn btn-light" href="appointments.html">Consult Now</a>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <h2>Contact Us</h2>
         <div class="contact-grid">
-          <div><h3>Office</h3><p>000 Example Street<br />Suite 000<br />City, ST 00000</p></div>
-          <div><h3>Contact</h3><p><a href="tel:+10000000000">+1 (000) 000-0000</a><br /><a href="mailto:hello@example.com">hello@example.com</a></p></div>
-          <div><h3>Hours</h3><p>Monday – Friday<br />9:00 am – 6:00 pm</p></div>
+          <div>
+            <h3>Address</h3>
+            <p><strong>Bellevue</strong><br />10800 NE 8th St, Suite 918<br />Bellevue, WA 98004</p>
+            <p><strong>New York</strong><br />260 Madison Avenue, 8th floor, PMB #1359<br />New York, NY 10016</p>
+          </div>
+          <div>
+            <h3>Contact</h3>
+            <p>US <a href="tel:+14254559898">+1 (425) 455-9898</a><br />CN <a href="tel:+8613114512986">+86 131-1451-2986</a></p>
+            <h3>Email</h3>
+            <p><a href="mailto:admin@lanicao.com">admin@lanicao.com</a></p>
+          </div>
+          <div>
+            <h3>Business Hours</h3>
+            <p>Mon - Fri<br />9:00 am – 6:00 pm (PST)</p>
+          </div>
+          <div class="qr">
+            <h3>WeChat QR Code</h3>
+            <img src="assets/wechat.png" alt="WeChat QR code for Lani Cao Law Office" width="180" height="182" />
+          </div>
         </div>
       </section>
     </main>
 
-    <footer><span>© 2026 LAW OFFICE</span><span>ALL RIGHTS RESERVED</span></footer>
-    <script>
-      const toggle = document.querySelector(".menu-toggle");
-      const nav = document.querySelector(".nav");
-      toggle.addEventListener("click", () => {
-        const open = nav.classList.toggle("open");
-        toggle.setAttribute("aria-expanded", open);
-      });
-    </script>
+    <footer class="site-footer">
+      <div class="footer-grid">
+        <div>
+          <h3>Lani Cao Law Office</h3>
+          <p>Immigration-Focused Law Firm. We speak English and Mandarin Chinese.</p>
+          <p>Email: <a href="mailto:admin@lanicao.com">admin@lanicao.com</a><br />US Phone: <a href="tel:+14254559898">(425) 455-9898</a><br />CN Phone: <a href="tel:+8613114512986">131-1451-2986</a></p>
+        </div>
+        <div>
+          <h3>Bellevue Office</h3>
+          <p>10800 NE 8th Street, Suite 918<br />Bellevue, WA 98004</p>
+        </div>
+        <div>
+          <h3>New York Office</h3>
+          <p>260 Madison Avenue, 8th floor, PMB #1359<br />New York, NY 10016</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <nav class="footer-nav" aria-label="Footer">
+          <a href="index.html">Home</a>
+          <a href="immigration-law.html">Immigration Law</a>
+          <a href="business-law.html">Business Law</a>
+          <a href="family-law.html">Family Law</a>
+          <a href="news.html">News</a>
+          <a href="faq.html">FAQ</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+        <p>Copyright © 2024 by Lani Cao Law Office. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>
